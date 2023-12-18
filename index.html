@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+<style>
+    .con{
+        display: grid;
+        grid-template-areas: 
+        "header header header header "
+        "sidbar section1 section2 section3"
+        "sidbar section1 section2 section3"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+        "sidbar a a a"
+
+        "footer footer footer footer"
+        ;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 3fr 3fr 3fr;
+       
+
+    }
+    body{
+        margin: 0;
+    }
+    .header{
+        grid-area: header;
+        background-color: black;
+        height: 60px;
+        color: white;
+        text-align: center;
+
+    }
+    .sidebar{
+        grid-area: sidbar;
+        background-color: rgb(67, 63, 63);
+        color: white;
+        padding: 5px;
+
+    }
+    .section1{
+        grid-area: section1;
+        background-color: gray;
+        color: white;
+        padding: 5px;
+    }
+    .section2{
+        grid-area: section2;
+        background-color: gray;
+        color: white;
+        padding: 5px;
+    }
+    .section3{
+        grid-area: section3;
+        background-color: rgb(132, 128, 128);
+        color: white;
+        padding: 5px;
+    }
+    .footer{
+        grid-area: footer;
+        background-color: black;
+        height: 60px;
+        color: aliceblue;
+        text-align: center;
+        
+        
+    }
+</style>
+
+</head>
+<body>
+    <div class="con">
+        <div class="header"><p>header</p></div>
+        <div class="sidebar"><p>sidebar</p></div>
+        <div class="section1"><p>section1</p></div>
+        <div class="section2"><p>section2</p></div>
+        <div class="section3"><p>section3</p></div>
+        <div class="footer"><p>footer</p></div>
+    </div>
+</body>
+</html>
